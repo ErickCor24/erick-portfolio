@@ -2,8 +2,8 @@
 title: Template with React
 small_description: Plantilla creada con React
 imagen: 
-        - "../public/test.webp"
-        - "../public/test.webp"
+        - "test.webp"
+        - "test.webp"
 languages: 
         - HTML 5
         - CSS 3

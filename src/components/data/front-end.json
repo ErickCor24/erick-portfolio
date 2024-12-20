@@ -1,22 +1,22 @@
 [
   {
     "name": "Tailwind Css",
-    "icon": "src/assets/icons-webp/front-end/Tailwind_Icon.webp"
+    "icon": "Tailwind_Icon.webp"
   },
   {
     "name": "Bootstrap",
-    "icon": "src/assets/icons-webp/front-end/Bootstrap_Icon.webp"
+    "icon": "Bootstrap_Icon.webp"
   },
   {
     "name": "JavaScript",
-    "icon": "src/assets/icons-webp/front-end/Javascript_Icon.webp"
+    "icon": "Javascript_Icon.webp"
   },
   {
     "name": "React Framework",
-    "icon": "src/assets/icons-webp/front-end/React_Icon.webp"
+    "icon": "React_Icon.webp"
   },
   {
     "name": "Astro",
-    "icon": "src/assets/icons-webp/front-end/Astro_Icon.webp"
+    "icon": "Astro_Icon.webp"
   }
 ]

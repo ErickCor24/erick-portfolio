@@ -2,9 +2,9 @@
 title: Fast Food System
 small_description: Aplicacion de escritorio Full-Stack
 imagen: 
-        - "../public/test.webp"
-        - "../public/test.webp"
-        - "../public/test.webp"
+        - "test.webp"
+        - "test.webp"
+        - "test.webp"
 languages: 
         - C#
         - .Net 7

@@ -2,9 +2,9 @@
 title: Crypto Exchange System
 small_description: Projecto Back-End creado 100% Java vanilla
 imagen: 
-        - "/src/images/crypto-exchange/cx1.webp"
-        - "../src/assets/img/crypto-exchange/cx2.webp"
-        - "../src/assets/img/crypto-exchange/cx3.webp"
+        - "cx1.webp"
+        - "cx2.webp"
+        - "cx3.webp"
 languages: 
         - Java
 linkRepo: https://github.com/ErickCor24/CryptoExchangeSystem.git
