@@ -2,6 +2,7 @@
 interface Props {
   imgn: string;
 }
+
 ---
 
-<img src={Astro.props.imgn} class="w-0 h-[300px] md:h-[400px] flex-grow object-cover opacity-70 duration-500 hover:w-[300px] md:hover:w-[450px] xl:hover:w-[500px]  hover:opacity-100 hover:contrast-100 rounded" alt="..." />
+<img src={`/screenshoots/${Astro.props.imgn}`} class="w-0 h-[300px] md:h-[400px] flex-grow object-cover opacity-70 duration-500 hover:w-[300px] md:hover:w-[450px] xl:hover:w-[500px]  hover:opacity-100 hover:contrast-100 rounded" alt="..." />

@@ -2,7 +2,7 @@
 title: Airline System
 small_description: Proyecto Full-Stack con implementación en Orcale SQL
 imagen: 
-        - "../public/test.webp"
+        - "cx1.webp"
         - "../public/test.webp"
         - "../public/test.webp"
 languages: 
