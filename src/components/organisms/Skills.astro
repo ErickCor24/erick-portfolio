@@ -22,7 +22,7 @@ const tools = tools_data;
 <!--  -->
   <h2 class="text-xl text-cali-50">Front - End</h2>
   <div class="relative px-5 w-full whitespace-nowrap rounded-md border-x-[3px] border-cali-400">
-    <div class="flex flex-row justify-center">
+    <div class="flex flex-row flex-wrap gap-4 justify-center">
       {frontEnd.map((skill) => <SkillItem {...skill} />)}
     </div>
   </div>
@@ -30,7 +30,7 @@ const tools = tools_data;
 <!--  -->
   <h2 class="text-xl text-cali-50">Back - End</h2>
   <div class="relative px-5 w-full whitespace-nowrap rounded-md border-x-[3px] border-cali-500">
-    <div class="flex flex-row items-center justify-center">
+    <div class="flex flex-row flex-wrap gap-4 items-center justify-center">
       {backEnd.map((skill) => <SkillItem {...skill} />)}
     </div>
   </div>
@@ -38,7 +38,7 @@ const tools = tools_data;
   <!--  -->
   <h2 class="text-xl text-cali-50">Tools</h2>
   <div class="relative px-5 w-full whitespace-nowrap rounded-md border-x-[3px] border-cali-600">
-    <div class="flex flex-row items-center justify-center">
+    <div class="flex flex-row flex-wrap gap-4 items-center justify-center">
       {tools.map((skill) => <SkillItem {...skill} />)}
     </div>
   </div>
