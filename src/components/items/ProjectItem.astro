@@ -1,0 +1,32 @@
+---
+import LinkIcon from "../icons/LinkIcon.astro";
+
+const { slug, data } = Astro.props;
+---
+
+<!-- <a href={`/projects/${slug}`} class="flex flex-col items-center gap-2 hover:scale-105 text-cali-50 rounded duration-150 box-content bg-neutral-900 py-3 px-3 border border-neutral-800 hover:bg-neutral-800">
+  <img
+    class="object-cover w-11/12 h-60 rounded"
+    src={data.imagen[1]}
+    alt="Project picture preview"
+  />
+  <h3 class="text-2xl text-cali-100">{data.title}</h3>
+  <p class="text-smoke-300">{data.small_description}</p>
+</a> -->
+<a href={`/projects/${slug}`} class="flex hover:scale-x-95 duration-300 w-full">
+  <div
+    class="z-[2] flex justify-center items-center h-auto relative border-x-2 border-cali-900 box-content rounded"
+  >
+    <div class="absolute size-4 bg-smoke-200 rounded-full"></div>
+    <div class="absolute size-2 bg-cali-900 rounded-full"></div>
+  </div>
+  <div
+    class="relative py-5 px-4 bg-neutral-900 rounded w-full box-content border-r-2 border-neutral-800 duration-300 hover:bg-neutral-800"
+  >
+    <div class="flex gap-2 items-center">
+      <h1 class="text-2xl text-cali-100">{data.title}</h1>
+      <LinkIcon />
+    </div>
+    <p class="text-cali-300">{data.small_description}</p>
+  </div>
+</a>

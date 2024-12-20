@@ -1,0 +1,29 @@
+---
+import ProjectItem from "../items/ProjectItem.astro";
+import { getCollection } from "astro:content";
+import ProjectsIcon from "../icons/ProjectsIcon.astro";
+
+interface Project {
+  id: string;
+  title: string;
+  description: string;
+}
+
+const experience: Project[] = await getCollection("experience");
+
+---
+
+<section id="projects" class="flex flex-col relative gap-4 px-[10%] py-16 box-border">
+  <div class="flex items-center gap-2">
+    <ProjectsIcon/>
+    <h1 class="text-3xl text-cali-100">Proyectos</h1>
+  </div>
+  <div class="flex flex-col gap-4 items-stretch">
+    {
+      experience.map((project) => {
+        return (<ProjectItem {...project} />
+        );
+      })
+    }
+  </div>
+</section>

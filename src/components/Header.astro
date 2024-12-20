@@ -1,0 +1,15 @@
+
+---
+import NavHeader from "./organisms/NavHeader.astro"
+
+const LINKS = {
+	about: "#about",
+	projects: "#projects",
+	skills: "#skills"
+}
+
+//backdrop-blur-sm
+---
+<header id="footer" class="py-4 flex items-center justify-center w-full xl:text-lg relative z-40 backdrop-blur-sm box-border border-b-[1px] border-cali-500">
+    <NavHeader {...LINKS}/>
+</header>

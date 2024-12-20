@@ -1,0 +1,45 @@
+---
+import SkillItem from "../items/SkillItem.astro";
+import front_end from "../data/front-end.json";
+import back_end from "../data/back-end.json";
+import tools_data from "../data/tools.json";
+import CodeIcon from "../icons/CodeIcon.astro";
+
+const frontEnd = front_end;
+const backEnd = back_end;
+const tools = tools_data;
+---
+
+<section
+  id="skills"
+  class="px-[10%] relative flex flex-col gap-4 py-16 box-border"
+>
+<div class="flex items-center gap-2">
+  <CodeIcon/>
+  <h1 class="text-3xl text-cali-100">Habilidades</h1>
+</div>
+
+<!--  -->
+  <h2 class="text-xl text-cali-50">Front - End</h2>
+  <div class="relative px-5 w-full whitespace-nowrap rounded-md border-x-[3px] border-cali-400">
+    <div class="flex flex-row justify-center">
+      {frontEnd.map((skill) => <SkillItem {...skill} />)}
+    </div>
+  </div>
+
+<!--  -->
+  <h2 class="text-xl text-cali-50">Back - End</h2>
+  <div class="relative px-5 w-full whitespace-nowrap rounded-md border-x-[3px] border-cali-500">
+    <div class="flex flex-row items-center justify-center">
+      {backEnd.map((skill) => <SkillItem {...skill} />)}
+    </div>
+  </div>
+
+  <!--  -->
+  <h2 class="text-xl text-cali-50">Tools</h2>
+  <div class="relative px-5 w-full whitespace-nowrap rounded-md border-x-[3px] border-cali-600">
+    <div class="flex flex-row items-center justify-center">
+      {tools.map((skill) => <SkillItem {...skill} />)}
+    </div>
+  </div>
+</section>

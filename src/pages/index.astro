@@ -1,0 +1,18 @@
+---
+import type { ACTION_ERROR_CODES } from "astro:actions";
+
+import AboutMe from "../components/organisms/AboutMe.astro";
+import Layout from "../layouts/Layout.astro";
+import Projects from "../components/organisms/Projects.astro";
+import Skills from "../components/organisms/Skills.astro";
+---
+
+<Layout>
+  <main class="w-full relative scroll-smooth">
+    <AboutMe />
+    <div class="flex flex-col gap-4 mb-8">
+      <Projects />
+      <Skills />
+    </div>
+  </main>
+</Layout>

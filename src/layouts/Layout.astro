@@ -1,0 +1,60 @@
+---
+import "@fontsource/onest";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <meta
+      name="description"
+      content="Portafolio de Erick Cordova, desarrollador Full Stack especializado en tecnologías como JavaScript, React, Node.js y más. Explora mis proyectos, habilidades y experiencia en desarrollo web y diseño de aplicaciones."
+    />
+    <title>Erick Córdova Programador y Desarrollador|Full Stack</title>
+  </head>
+  <body class="">
+    <div
+      class="absolute top-0 z-[-2] h-screen w-screen bg-[#121212] bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(84,125,134,0.3),rgba(255,255,255,0))]"
+    >
+    </div>
+
+    <div
+      id="content"
+      class="flex relative flex-col items-center w-screen h-screen px-[8dvw] box-border overflow-auto scroll-smooth"
+    >
+      <Header />
+      <slot />
+      <Footer />
+    </div>
+  </body>
+
+  <style>
+    body {
+      font-family: "Onest", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+        "Open Sans", "Helvetica Neue", sans-serif;
+      box-sizing: border-box;
+      margin: 0;
+      height: 100%;
+      color: #fff;
+    }
+
+    #content::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    #content::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+
+    #content::-webkit-scrollbar-thumb {
+      background: #979c7f;
+      border-radius: 15px;
+      border: #3e4133 1px solid;
+    }
+  </style>
+</html>

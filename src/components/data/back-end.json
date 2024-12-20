@@ -1,0 +1,14 @@
+[
+  {
+    "name": ".NET",
+    "icon": "src/assets/icons-webp/back-end/Net_Icon.webp"
+  },
+  {
+    "name": "Java",
+    "icon": "src/assets/icons-webp/back-end/Java_Icon.webp"
+  },
+  {
+    "name": "NodeJS",
+    "icon": "src/assets/icons-webp/back-end/Node_Icon.webp"
+  }
+]

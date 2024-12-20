@@ -1,0 +1,9 @@
+---
+const LINKS = Astro.props;
+---
+
+<nav id="nav-link" class="flex xl:gap-12 gap-5 ">
+  <a class="hover:scale-105 duration" href={LINKS.about}>Sobre mi</a>
+  <a class="hover:scale-105 duration" href={LINKS.projects}>Projectos</a>
+  <a class="hover:scale-105 duration" href={LINKS.skills}>Habilidades</a>
+</nav>
