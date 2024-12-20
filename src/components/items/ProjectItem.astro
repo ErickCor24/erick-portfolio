@@ -4,15 +4,6 @@ import LinkIcon from "../icons/LinkIcon.astro";
 const { slug, data } = Astro.props;
 ---
 
-<!-- <a href={`/projects/${slug}`} class="flex flex-col items-center gap-2 hover:scale-105 text-cali-50 rounded duration-150 box-content bg-neutral-900 py-3 px-3 border border-neutral-800 hover:bg-neutral-800">
-  <img
-    class="object-cover w-11/12 h-60 rounded"
-    src={data.imagen[1]}
-    alt="Project picture preview"
-  />
-  <h3 class="text-2xl text-cali-100">{data.title}</h3>
-  <p class="text-smoke-300">{data.small_description}</p>
-</a> -->
 <a href={`/projects/${slug}`} class="flex hover:scale-x-95 duration-300 w-full">
   <div
     class="z-[2] flex justify-center items-center h-auto relative border-x-2 border-cali-900 box-content rounded"
