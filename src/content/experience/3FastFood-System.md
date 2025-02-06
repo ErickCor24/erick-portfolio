@@ -1,6 +1,6 @@
 ---
 title: Fast Food System
-small_description: Aplicacion de escritorio Full-Stack
+small_description: C# - .Net7 - SQL Server
 imagen: 
         - "test.webp"
         - "test.webp"
@@ -9,6 +9,7 @@ languages:
         - C#
         - .Net 7
         - SQL Server
+type: Full Stack
 linkRepo: "https://github.com/camillie15/ProyectoPOE-GrupoN1.git"
 ---
 

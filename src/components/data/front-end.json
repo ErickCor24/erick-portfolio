@@ -1,22 +1,22 @@
 [
   {
     "name": "Tailwind Css",
-    "icon": "Tailwind_Icon.webp"
+    "icon": "Tailwind.svg"
   },
   {
     "name": "Bootstrap",
-    "icon": "Bootstrap_Icon.webp"
+    "icon": "Bootstrap.svg"
   },
   {
     "name": "JavaScript",
-    "icon": "Javascript_Icon.webp"
+    "icon": "JavaScript.svg"
   },
   {
     "name": "React Framework",
-    "icon": "React_Icon.webp"
+    "icon": "React.svg"
   },
   {
     "name": "Astro",
-    "icon": "Astro_Icon.webp"
+    "icon": "Astro.svg"
   }
 ]

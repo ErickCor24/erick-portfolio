@@ -18,6 +18,7 @@ const { slug, data } = Astro.props;
       <h1 class="text-2xl text-cali-100">{data.title}</h1>
       <LinkIcon />
     </div>
-    <p class="text-cali-300">{data.small_description}</p>
+    
+    <p class="text-cali-300">{data.type}: {data.small_description}</p>
   </div>
 </a>

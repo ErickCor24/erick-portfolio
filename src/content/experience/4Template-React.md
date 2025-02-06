@@ -1,6 +1,6 @@
 ---
 title: Template with React
-small_description: Plantilla creada con React
+small_description: Html - Css - JavaScript - React.js
 imagen: 
         - "test.webp"
         - "test.webp"
@@ -9,6 +9,7 @@ languages:
         - CSS 3
         - JavaScript
         - React Framework
+type: Front End
 linkRepo: https://github.com/ErickCor24/IHM-Proyect.git
 ---
 

@@ -1,22 +1,18 @@
 [
   {
     "name": "Figma",
-    "icon": "Figma_Icon.webp"
+    "icon": "Figma.svg"
   },
   {
     "name": "Git Hub",
-    "icon": "GitHub_Icon.webp"
-  },
-  {
-    "name": "Oracle SQL",
-    "icon": "Oracle_Icon.webp"
+    "icon": "GitHub.svg"
   },
   {
     "name": "My SQL",
-    "icon": "Mysql_Icon.webp"
+    "icon": "MySql.svg"
   },
   {
     "name": "SQL Server",
-    "icon": "SqlServer_Icon.webp"
+    "icon": "SqlServer.svg"
   }
 ]

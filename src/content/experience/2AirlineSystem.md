@@ -1,6 +1,6 @@
 ---
 title: Airline System
-small_description: Proyecto Full-Stack con implementación en Orcale SQL
+small_description: Python - Html - Css - Flask - Oracle SQL
 imagen: 
         - "cx1.webp"
         - "test.webp"
@@ -11,6 +11,7 @@ languages:
         - "CSS 3"
         - "Flask Framework"
         - "Oracle SQL"
+type: Full Stack
 linkRepo: https://github.com/ErickCor24/webAirplane.git
 ---
 

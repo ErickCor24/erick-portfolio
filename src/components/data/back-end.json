@@ -5,10 +5,10 @@
   },
   {
     "name": "Java",
-    "icon": "Java_Icon.webp"
+    "icon": "Java.svg"
   },
   {
     "name": "NodeJS",
-    "icon": "Node_Icon.webp"
+    "icon": "NodeJs.svg"
   }
 ]
