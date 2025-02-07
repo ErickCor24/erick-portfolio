@@ -10,7 +10,12 @@ interface Project {
   type: string;
 }
 
-const experience = await getCollection("experience");
+async function getExperience() {
+  const experience = await getCollection("experience");
+  return experience;
+}
+
+const experience = await getExperience();
 
 ---
 

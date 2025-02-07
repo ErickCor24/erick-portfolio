@@ -8,6 +8,7 @@ export const collections = {
                 small_description: z.string(),
                 imagen: z.array(z.string()),
                 languages: z.array(z.string()),
+                type: z.string(),
                 linkRepo: z.string(),
             })
         }
