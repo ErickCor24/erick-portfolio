@@ -2,8 +2,7 @@
 title: Template with React
 small_description: Html - Css - JavaScript - React.js
 imagen: 
-        - "test.webp"
-        - "test.webp"
+        - "Template.png"
 languages: 
         - HTML 5
         - CSS 3

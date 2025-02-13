@@ -1,16 +1,15 @@
 ---
-title: Fast Food System
-small_description: C# - .Net7 - SQL Server
+title: Hotel API BackEnd
+small_description: C# - ASP.NET - Entity Framework - SQL Server 
 imagen: 
-        - "test.webp"
-        - "test.webp"
-        - "test.webp"
+        - "FastFood.png"
 languages: 
         - C#
-        - .Net 7
+        - ASP.NET
+        - Entity Framework
         - SQL Server
-type: Full Stack
-linkRepo: "https://github.com/camillie15/ProyectoPOE-GrupoN1.git"
+type: Back End
+linkRepo: "https://github.com/ErickCor24/HotelApiBackEnd"
 ---
 
 Proyecto de una **aplicación de escritorio** diseñada para optimizar la gestión de un negocio de comida rápida, proporcionando herramientas para manejar clientes, órdenes y facturación de manera eficiente. Las principales características del sistema incluyen:  

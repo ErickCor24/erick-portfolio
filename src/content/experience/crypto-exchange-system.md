@@ -2,9 +2,7 @@
 title: Crypto Exchange System
 small_description: Java
 imagen: 
-        - "cx1.webp"
-        - "cx2.webp"
-        - "cx3.webp"
+        - "crypto.png"
 languages: 
         - Java
 type: Back End
