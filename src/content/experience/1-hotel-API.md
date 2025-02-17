@@ -12,14 +12,16 @@ type: Back End
 linkRepo: "https://github.com/ErickCor24/HotelApiBackEnd"
 ---
 
-Proyecto de una **aplicación de escritorio** diseñada para optimizar la gestión de un negocio de comida rápida, proporcionando herramientas para manejar clientes, órdenes y facturación de manera eficiente. Las principales características del sistema incluyen:  
+Project created with **ASP.NET** with **C#**
 
-▹ **Registro de clientes**: El personal puede registrar nuevos usuarios en el sistema para convertirlos en clientes del negocio, lo que facilita el seguimiento de sus pedidos y facturación.
+Creation of an API for a web application of a hotel, which contains requirements for the own use of the business and to logically manage the entire building.
 
-▹ **Gestión de órdenes y facturación**: El sistema permite generar facturas detalladas, asociadas a las órdenes de comida realizadas por los clientes.
+It contains requirements such as:
 
-▹ **CRUD de menú de comida**: Los empleados pueden gestionar el catálogo de comidas, con funcionalidades como: registrar nuevas comidas, dar de baja comida (estados), actualizar información y consultar menu completo.
+▹ **Employee and customer registration**
 
-▹ **Generación de reportes**: El sistema permite generar reportes detallados sobre las facturas emitidas, facilitando el análisis de las ventas y el rendimiento del negocio.
+▹ **Generation of screenshots**
 
-Esta aplicación es una solución integral para negocios de comida rápida, facilitando la administración del menú, la atención a clientes y el control de ventas.
+▹ **Hotel room management**
+
+▹ **Report generation**
