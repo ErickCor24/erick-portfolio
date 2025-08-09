@@ -4,11 +4,19 @@
     "icon": "Net_Icon.webp"
   },
   {
-    "name": "Java",
-    "icon": "Java.svg"
-  },
-  {
     "name": "NodeJS",
     "icon": "NodeJs.svg"
+  },
+  {
+    "name": "Typescript",
+    "icon": "Typescript.svg"
+  },
+  {
+    "name": "SrpingBoot",
+    "icon": "SrpingBoot.svg"
+  },
+  {
+    "name": "Java",
+    "icon": "Java.svg"
   }
 ]

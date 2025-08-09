@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Sofware Enginnering",
+    "locate": "Universidad de Guayaquil",
+    "date": "May, 2022 - Currently",
+    "description": "Data Structure, Software Architecture, Data Bases, Networks"
+  },
+  {
+    "title": "Java Bootcamp - Back End & Test Automation",
+    "locate": "Globant",
+    "date": "Agu,2024 - Sep, 2024",
+    "description": "Java Vanilla, Software Architecture"
+  },
+  {
+    "title": "GitHub Actions Bootcamp",
+    "locate": "Codigo Facilito",
+    "date": "Jun, 2025 - Jul, 2025",
+    "description": "GitHub Actions,  CI, CD."
+  },
+  {
+    "title": "Foundational C# with Microsoft",
+    "locate": "freeCodeCamp",
+    "date": "Jan,2024 Mon,2024",
+    "description": "New Lenguage, Clean Code, Good practices"
+  }
+]

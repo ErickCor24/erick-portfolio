@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Rent Car System",
+    "description": [
+      "C#",
+      "ASP.NET",
+      "Entity Framework",
+      "SQL Server",
+      "API",
+      "Angular",
+      "JWT"
+    ],
+    "type": "Full Stack",
+    "img": "https://agenciadigitalamd.com/wp-content/uploads/2022/05/publitek-diseno-web-ecuador.jpg",
+    "repo": "https://www.github.com"
+  },
+  {
+    "title": "Hotel Management Service",
+    "description": [
+      "C#",
+      "ASP.NET",
+      "Entity Framework",
+      "SQL Server",
+      "API"
+    ],
+    "type": "Back End",
+    "img": "https://kinsta.com/wp-content/uploads/2021/10/Untitled-26.png",
+    "repo": "github.comn"
+  },
+  {
+    "title": "Crypto Exchange Wallet",
+    "description": [
+      "Java Vanilla"
+    ],
+    "type": "back End",
+    "img": "https://images.ctfassets.net/w6r2i5d8q73s/65cDp6aXFfZ3xCi6SoZ2mu/b7ab1e3e1da6e04837b71d9a4a0ade59/wireframing_04_flowchart_product_image_EN_standard_4_3_2x.png?fm=webp&q=75",
+    "repo": "github.comn"
+  },
+  {
+    "title": "Vox Populity Social Network",
+    "description": [
+      "Java",
+      "SpringBoot",
+      "Thymeleaf",
+      "MySQL"
+    ],
+    "type": "Full Stack",
+    "img": "https://www.comparapps.com/wp-content/uploads/2019/08/Como-Crear-Una-Pagina-Web.jpg",
+    "repo": "github.comn"
+  },
+  {
+    "title": "Airline System Management",
+    "description": [
+      "Python",
+      "Flask",
+      "Html",
+      "Css",
+      "Oracle SQL"
+    ],
+    "type": "Full Stack",
+    "img": "https://www.hubspot.es/hubfs/Imported%20sitepage%20images/WYSIWYG-editor-es.webp",
+    "repo": "github.comn"
+  }
+]
