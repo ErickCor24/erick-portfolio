@@ -18,5 +18,9 @@
   {
     "name": "Astro",
     "icon": "Astro.svg"
+  },
+  {
+    "name": "Angular",
+    "icon": "Angular.svg"
   }
 ]

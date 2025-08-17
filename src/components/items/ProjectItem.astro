@@ -1,24 +1,31 @@
 ---
-import LinkIcon from "../icons/LinkIcon.astro";
-
-const { slug, data } = Astro.props;
+import GitHubIcon from "../icons/GitHubIcon.astro";
 ---
 
-<a href={`/projects/${slug}`} class="flex hover:scale-x-95 duration-300 w-full">
-  <div
-    class="z-[2] flex justify-center items-center h-auto relative border-x-2 border-cali-900 box-content rounded"
-  >
-    <div class="absolute size-4 bg-smoke-200 rounded-full"></div>
-    <div class="absolute size-2 bg-cali-900 rounded-full"></div>
-  </div>
-  <div
-    class="relative py-5 px-4 bg-neutral-900 rounded w-full box-content border-r-2 border-neutral-800 duration-300 hover:bg-neutral-800"
-  >
-    <div class="flex gap-2 items-center mb-1">
-      <h1 class="text-2xl text-cali-100 font-semibold">{data.title}</h1>
-      <LinkIcon />
-    </div>
+<div
+  class="flex flex-col items-center gap-1 py-4 px-3 bg-neutral-900 rounded w-auto h-full box-border border border-smoke-900 shadow-lg shadow-smoke-950 duration-150 hover:bg-neutral-800"
+>
+  <img src={Astro.props.img} alt="img test" class="rounded box-border w-11/12 h-64 object-cover" />
+  <div class="flex flex-col gap-2 my-2 w-full items-start">
     
-    <p class="text-cali-50"><span class="text-cali-300">{data.type}:</span> {data.small_description}</p>
+    <h1 class="text-2xl text-cali-200 font-semibold">{Astro.props.title}</h1>
+
+    <div class="flex flex-wrap gap-2 items-center">
+      <p class="text-cali-50 text-lg">{Astro.props.type}</p>
+      <a class="flex flex-row gap-1 rounded bg-cali-900 px-2 py-1 hover:bg-cali-800 duration-100" href={Astro.props.repo} target="_blank">
+        <GitHubIcon/><span>Repo</span>
+      </a>
+    </div>
+
+    <div class="flex flex-row flex-wrap gap-1 items-center">
+      <p>Tecnologies:</p>
+      {
+        Astro.props.description.map((x: string) => (
+          <p class="border text-xs border-cali-200 py-1 px-2 rounded-lg">{x}</p>
+        ))
+      }
+    </div>
+
+
   </div>
-</a>
+</div>

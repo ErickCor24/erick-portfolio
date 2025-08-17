@@ -16,28 +16,27 @@ const tools = tools_data;
 >
 <div class="flex items-center gap-2">
   <CodeIcon/>
-  <h1 class="text-3xl text-cali-100">Skills</h1>
+  <h1 class="text-xl text-cali-100 tracking-widest">SKILLS</h1>
 </div>
 
+<p>Languages, frameworks, and tools I use on a daily basis.</p>
+
 <!--  -->
-  <h2 class="text-xl text-cali-50">Front - End</h2>
-  <div class="relative px-5 w-full whitespace-nowrap rounded-md border-x-[3px] border-cali-400">
+  <div class="relative px-5 w-full whitespace-nowrap rounded-md ">
     <div class="flex flex-row flex-wrap gap-4 justify-center">
       {frontEnd.map((skill) => <SkillItem {...skill} />)}
     </div>
   </div>
 
 <!--  -->
-  <h2 class="text-xl text-cali-50">Back - End</h2>
-  <div class="relative px-5 w-full whitespace-nowrap rounded-md border-x-[3px] border-cali-500">
+  <div class="relative px-5 w-full whitespace-nowrap rounded-md">
     <div class="flex flex-row flex-wrap gap-4 items-center justify-center">
       {backEnd.map((skill) => <SkillItem {...skill} />)}
     </div>
   </div>
 
   <!--  -->
-  <h2 class="text-xl text-cali-50">Tools</h2>
-  <div class="relative px-5 w-full whitespace-nowrap rounded-md border-x-[3px] border-cali-600">
+  <div class="relative px-5 w-full whitespace-nowrap rounded-md">
     <div class="flex flex-row flex-wrap gap-4 items-center justify-center">
       {tools.map((skill) => <SkillItem {...skill} />)}
     </div>

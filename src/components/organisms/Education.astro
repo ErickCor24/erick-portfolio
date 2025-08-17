@@ -1,0 +1,26 @@
+---
+import education from  "../data/education.json"
+import EducationItem from  "../items/EducationItem.astro"
+import FormationIcon from "../icons/FormationIcon.astro"
+
+const data = education;
+
+---
+
+<section
+  id="education"
+  class="flex flex-col relative gap-4 px-[10%] pt-8 box-border"
+>
+  <div class="flex items-center gap-2">
+    <FormationIcon/>
+    <h1 class="text-xl text-cali-100 tracking-widest">FORMATION & COURSES</h1>
+  </div>
+
+  <p>Formal education, relevant courses, and certifications</p>
+
+  {data.map((x) => (
+    <EducationItem {...x}/>
+  ))}
+
+
+</section>
